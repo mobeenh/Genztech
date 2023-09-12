@@ -1,0 +1,6 @@
+*** Installing on Windows 10 and Windows 11 (any Edition) ***
+https://docs.docker.com/desktop/windows/install/
+
+This is the best experience on Windows, which uses WSL2. If you're new to WSL2, it's the best way to run Linux on Windows, and Docker Desktop will walk you through enabling it. Docker can technically still work on Hyper-V with "Windows Containers," but most of this course focuses on Linux Containers, which WSL2 is great at.
+
+After installing Docker Desktop for Windows. I recommend installing a Windows Store Ubuntu for WSL2 distro and using its shell in Windows Terminal is the best CLI experience! Make sure to check your Docker Desktop settings to give it enough resources and enable all your WSL2 distros for Docker Desktop.
