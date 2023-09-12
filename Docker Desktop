@@ -1,0 +1,17 @@
+
+Docker desktop is free for learning.
+Docker Desktop is not free for enterprise or commercial use.
+Docker Desktop includes many tools.
+e.g. Engine, CLI, Compose, Kubernetes, Buildkit, Scan etc...
+
+Docker desktop needs Linux OS VM, so for windows we need to WSL --install/update. Windows subsystem for Linux.
+
+Three ways to run DOcker container:
+1. Local - Docker Desktop - Other Local tools:--> Rancher Desktop, dockerd, cli, k3s, Minikube.
+2. Server - Docker Engine, K8s
+3. Paas - CloudRun, Fargate.
+https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html
+https://cloud.google.com/run/?utm_source=google&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-BKWS-all-lv-trial-EXA-dr-1605216&utm_content=text-ad-none-none-DEV_c-CRE_634266516679-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Compute_Cloud%20Run_cloud%20run_main-KWID_43700074201091835-aud-1596662390334%3Akwd-677335472779&userloc_9062116-network_g&utm_term=KW_cloud%20run&gclid=Cj0KCQjwmICoBhDxARIsABXkXlJwUnMyVSYDysrEGdEyUCQvwcuB6XrxioR9u6QUaQg-t0bkieP0FFIaAsatEALw_wcB&gclsrc=aw.ds
+
+Docker Engine use OCI Standard (Open Container Initiative)
+Docker Engine needs to install on server.
