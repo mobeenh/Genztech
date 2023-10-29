@@ -1,0 +1,11 @@
+---
+- hosts: ansible
+
+  tasks:
+  - name: create docker image
+    command: docker build -t myapp:latest .
+    args:
+      chdir: /opt/docker
+
+  - name: run docker container
+    command: docker run -d --name myreg -p 8085:8080 myapp:latest
