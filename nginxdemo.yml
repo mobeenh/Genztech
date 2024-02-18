@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: genztech-regapp
+  labels:
+     app: regapp
+
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: regapp
+
+  template:
+    metadata:
+      labels:
+        app: regapp
+    spec:
+      containers:
+      - name: regapp
+        image: nginx:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
