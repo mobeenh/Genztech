@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tomcat
+  labels:
+    app: demo-tomcat
+
+spec:
+  containers:
+  - name: demo-tomcat
+    image: tomcat:latest
+    ports:
+      - name: demo-tomcat
+        containerPort: 8080
